@@ -9,7 +9,12 @@ int main()
     printf("Addition=%d \n",a+b);
     printf("Subtraction=%d\n",a-b);
     printf("Multiplication=%d\n",a*b);
-    printf("Quotient=%d\n",a/b);
-    printf("Remainder=%d\n",a%b);
+    if(b!=0)
+    {
+        printf("Quotient=%d\n",a/b);
+        printf("Remainder=%d\n",a%b);
+    }
+    else
+        printf("Divisible by zero not possible");
     return 0;
 }
