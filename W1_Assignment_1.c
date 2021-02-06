@@ -15,6 +15,6 @@ int main()
         printf("Remainder=%d\n",a%b);
     }
     else
-        printf("Divisible by zero not possible");
+        printf("Division by zero not possible");
     return 0;
 }
