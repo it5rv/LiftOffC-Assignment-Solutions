@@ -14,7 +14,7 @@ int main(){
     for(i=0;i<t;i++){
         if(n[i]%2==0)
         se+=n[i];
-        if((i+1)%2==0)
+        if(i%2==0)
         sep+=n[i];
     }
     printf("Sum of even elements: %d\n",se);
