@@ -1,8 +1,7 @@
-// WAP in C to print a string(max length 100) in reverse using a pointer.
+// WAP in C to print a string in reverse using a pointer.
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<string.h>
 
 int main(){
     printf("Enter length of string: ");
