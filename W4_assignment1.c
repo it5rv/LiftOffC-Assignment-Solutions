@@ -1,4 +1,4 @@
-// C program to add two matrices of size (5X5)
+// C program to add two matrices
 
 #include<stdio.h>
 #include<stdlib.h>
